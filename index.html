@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="F:/WEB DEVELOPMENT/Bootstrap 4/Bootstrap/Bootstrap4/conFusion/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>smart Environment</title>
+
+    <!-- piechart 1 script -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/script.js"></script>
+    
+
+
+<!-- <figure class="highcharts-figure">
+    <div id="container"></div>
+    <p class="highcharts-description">
+        All color options in Highcharts can be defined as gradients or patterns.
+        In this chart, a gradient fill is used for decorative effect in a pie
+        chart.
+    </p>
+</figure> -->
+  
+</head>
+<body>
+    
+    <div class="container">
+
+    <nav class="navbar navbar-expand-sm fixed-top">
+        
+        <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="" id="logo" width="100px" height="100px" class="rounded-circle">
+        <span class="projName">Smart Environment </span> </a>
+    </nav>
+    
+    
+    <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar">
+            <div class="custom-menu">
+                <button type="button" id="sidebarCollapse" class="btn btn-primary">
+          <i class="fa fa-bars"></i>
+          <span class="sr-only" style="color: white;">Toggle Menu</span>
+        </button>
+    </div>
+            <div class="p-4">
+              <h3><i class="fa fa-admin"></i> <a href="index.html" class="logo">admin</span></a></h3>
+        <ul class="list-unstyled components mb-5">
+          <li class="active">
+            <a href="#"><span class="fa fa-home mr-3"></span>Dashboard</a>
+          </li>
+          <li>
+              <a href="#"><span class="fa fa-user mr-3"></span>HistoricalData</a>
+          </li>
+          <li>
+          <a href="#"><span class="fa fa-briefcase mr-3"></span> List</a>
+          </li>
+          <li>
+          <a href="#"><span class="fa fa-sticky-note mr-3"></span> Logs</a>
+          </li>
+          <li>
+          <a href="#"><span class="fa fa-suitcase mr-3"></span> Map</a>
+          </li>
+          <li>
+          <a href="#"><span class="fa fa-cogs mr-3"></span>SideEffect</a>
+          </li>
+          <li>
+          <a href="#"><span class="fa fa-paper-plane mr-3"></span> Logout</a>
+          </li>
+        </ul>
+
+        <!-- <div class="mb-5">
+                    <h3 class="h6 mb-3">Subscribe for newsletter</h3>
+                    <form action="#" class="subscribe-form">
+            <div class="form-group d-flex">
+                <div class="icon"><span class="icon-paper-plane"></span></div>
+              <input type="text" class="form-control" placeholder="Enter Email Address">
+            </div>
+          </form>
+                </div> -->
+
+        
+
+      </div>
+    </nav>
+
+    <!-- Page Content  -->
+  <div id="content" class="p-4 p-md-5 pt-5">
+    <h2 class="dashboard mb-4 ml-2">Device Dashboard</h2>
+    <!-- piechart portions -->
+    <div class="head">
+    <h4 class="head4">Device 1 (Do1)</h4>
+    <h6 class="head4"><strong> Last pulse: </strong> Aug 27 2021 10:59 Am</h6>
+    </div>
+    <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
+    
+  <div class="container">
+    <div class="head" style="margin-top: 20px;">
+
+    <h4 class="head4">Device 02 (D02)</h4>
+    <h6 class="head4"><strong> Last pulse: </strong> Aug 27 2021 11:03 Am</h6>
+  </div>
+
+    <div class="container">
+    <table class="table">
+      <tr class="row red">0.2 <br> Alcohol</tr>
+      <tr class="row red">0.48 <br> NH3</tr>
+      <tr class="row red">0.47 <br> VOC</tr>
+      <tr class="row green">19 <br> Hydrogen</tr>
+      <tr class="row green">34.63<br> Methane</tr>
+    </table>
+  </div>
+</div>
+   
+ 
+  </div>
+  
+    </div>
+</div>
+
+    <footer class="footer">
+        <div class="container">
+        <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <!-- <script>document.write(new Date().getFullYear());</script> -->
+                  Copyright &copy; All rights reserved | This template is made with NCAI
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+    
+    </div>
+    </footer>
+
+
+<!-- scripts Part -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/popper.js"></script>
+
+<!-- piechart 2 script links -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.js"></script>
+
+</body>
+</html>
